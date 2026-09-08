@@ -21,4 +21,5 @@ public class HistoriaClinica {
     @OneToOne
     @JoinColumn(name = "mascota_id", unique = true)
     private Mascota mascota;
+
 }

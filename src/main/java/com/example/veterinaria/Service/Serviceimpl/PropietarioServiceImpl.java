@@ -23,7 +23,7 @@ public class PropietarioServiceImpl implements PropietarioService {
     }
 
     @Override
-    public Optional <Propietario> buscarPorId(Long id) {
+    public Optional <Propietario>   buscarPorId(Long id) {
         return propietarioRepository.findById(id);
     }
 
